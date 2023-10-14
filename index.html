@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Chhettri....</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="active">About</a>
+            <a href="#contact" class="active">Contact</a>
+            <span class="active-nav"></span>
+        </nav>
+        <a div class="bx bx-moon" id="darkMode-icon"></a>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Khagendra Budhathoki</span></h1>
+            <div class="text-animation">
+                <h3>Frontend Developer</h3>
+                <h3>From Nepal..</h3>
+            </div>
+            <p>A Front-End Developer is someone who creates websites and web applications.Front-end developers are the coders
+                 of all the user-facing elements of websites, web applications, and mobile applications..</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/sushil.budhachhetri.9"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/__chhetri_sushil/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Chhetri-sushil"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/khagendra-budhathoki-61a547270/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="Khagendra_Budhathoki_Resume_17-06-2023-23-19-33.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="home-img"></div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="li.png" alt="">
+                    <span class="circle-spin"></span>
+                </div>
+    <div class="about-col-2">
+        <h1 class="heading">About <span>Me</span></h1>
+        <h3>Hi, I'm Here To Help and Guide your Next Project</h3>
+        <p>Hello everyone, I'm very greatful fo help and guide you.
+            Iam certainly sure that I can helps to boost your knowledge regardin topics.
+        </p>
+        <div class="tab-titles">
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2020-</span><br> B.Tect from SVCET,Chittoor</li>
+                <li><span>2018-2020</span><br>Intermediate from Dhambhoji Higher Secondary school, Banke-Nepalgunj,Nepal</li>
+                <li><span>School level</span><br>West Zone Secondary School, Banke</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="titles">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span>55%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <a class='btns' href='/skiils'>ReadMore</a>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <p><i class='bx bxs-send'></i> sushilchhetri448@gmail.com</p>
+                    <p><i class='bx bxs-phone-call'></i> +91 7382042366</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/sushil.budhachhetri.9"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/__chhetri_sushil/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/Chhetri-sushil"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/khagendra-budhathoki-61a547270/"><i
+                                class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+
+                <form name="submit-to-google-sheet">
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input type="text" name="Name" placeholder="Full Name" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" name="E-Mail" placeholder="E-mail ID" required>
+                            <span class="focus"></span>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input type="number" name="Number" placeholder="Mobile Number" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" name="Subject" placeholder="E-mail Subject" required>
+                            <span class="focus"></span>
+                        </div>
+                    </div>
+                    <div class="textarea-field">
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"
+                            required></textarea>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="btn-box btnss"></div>
+                    <button type="submit" class="btn">submit</button>
+                </form>
+
+            </div>
+            <span id="msg"></span>
+        </div>
+        
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Code | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby5AvajHYGajglocCEt549SyQfiw642NUx5WSe0NJXs7mrk4vWUQ_fLGA8B-F_YhPo5iA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succefully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <!--scrollrev-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    </section>
+    <script src="main.js"></script>
+    
+</body>
+</html>
